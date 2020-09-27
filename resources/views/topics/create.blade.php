@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="createPage">
+<div class="topicCreatePage">
   <div class="container">
     <div class="topic_create col-md-6 offset-md-3">
       <div class="card">
@@ -9,6 +9,7 @@
           トピックを作成する
         </div>
         <div class="card-body topic_create_body">
+          @include('common.errors')
           <form action="{{ route('topic.create') }}" method="post" class="form">
             @csrf
             <div class="form-group">
