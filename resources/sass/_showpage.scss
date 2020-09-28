@@ -1,0 +1,25 @@
+.showPage{
+  .topic{
+    margin-bottom: 20px;
+    &_header_title{
+      font-size: 30px;
+      font-weight: bold;
+    }
+    &_header_btn{
+      border-radius: 6px;
+    }
+    &_body{
+      font-size: 20px;
+    }
+  }
+
+  .comment{
+    &_user{
+      margin-bottom: 8px;
+    }
+    &_content{
+      margin-bottom: 8px;
+      font-weight: 20px;
+    }
+  }
+}

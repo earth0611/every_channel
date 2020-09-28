@@ -1,0 +1,19 @@
+.topPage{
+  .top_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &>h1{
+      font-size: 30px;
+    }
+    &>h4{
+      font-size: 18px;
+    }
+    
+  }
+  
+  .topic_header_btn{
+    width: 400px;
+    border-radius: 10px;
+  }
+}
